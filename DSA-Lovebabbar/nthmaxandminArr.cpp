@@ -1,3 +1,5 @@
+// Find the "Kth" max and min element of an array
+
 #include<iostream>
 using namespace std;
 int main ()
@@ -47,7 +49,7 @@ for(int i=5; i>0;i--)
 
 
 
-cout<<" Enter nth possition : "; 
+cout<<" Enter nth possition : ";
    int nn;
    cin>>nn;
    cout<<" Maximun "<<nn<<"th element is "<<A[n-nn]<< " and minimum "<<nn<< " th element "<<A[nn-1];
