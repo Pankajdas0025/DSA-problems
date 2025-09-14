@@ -21,16 +21,16 @@ public class PowerOfThree
         return n == 1;
     }
 
-    public static void main(String[] args)
-    {
-        PowerOfThree obj = new PowerOfThree();
-        int input = 21; // You can change this to test other values
-        boolean result = obj.isPowerOfThree(input);
+    // public static void main(String[] args)
+    // {
+    //     PowerOfThree obj = new PowerOfThree();
+    //     int input = 21; // You can change this to test other values
+    //     boolean result = obj.isPowerOfThree(input);
 
-        if (result) {
-            System.out.println("true");
-        } else {
-            System.out.println("false");
-        }
-    }
+    //     if (result) {
+    //         System.out.println("true");
+    //     } else {
+    //         System.out.println("false");
+    //     }
+    // }
 }

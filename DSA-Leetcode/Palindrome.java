@@ -13,14 +13,14 @@ class Palindrome {
         return reverse == original;
     }
 
-    public static void main(String[] args) {
-        Palindrome obj = new Palindrome();
-        boolean isPalindrome = obj.isPalindrome(171); // call the method and store result
+    // public static void main(String[] args) {
+    //     Palindrome obj = new Palindrome();
+    //     boolean isPalindrome = obj.isPalindrome(171); // call the method and store result
 
-        if (isPalindrome) {
-            System.out.println("The Number is Palindrome");
-        } else {
-            System.out.println("The Number is Not a Palindrome Number");
-        }
-    }
+    //     if (isPalindrome) {
+    //         System.out.println("The Number is Palindrome");
+    //     } else {
+    //         System.out.println("The Number is Not a Palindrome Number");
+    //     }
+    // }
 }

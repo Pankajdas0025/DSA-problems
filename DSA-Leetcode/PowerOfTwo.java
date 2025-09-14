@@ -27,17 +27,17 @@ public class PowerOfTwo
         return num == 1;
     }
 
-     public static void main(String[] args)
-    {
-        PowerOfTwo obj = new PowerOfTwo();
-        int input = 81; // You can change this to test other values
-        boolean result = obj.isPowerOfTwo(input);
+    //  public static void main(String[] args)
+    // {
+    //     PowerOfTwo obj = new PowerOfTwo();
+    //     int input = 81; // You can change this to test other values
+    //     boolean result = obj.isPowerOfTwo(input);
 
-        if (result) {
-            System.out.println("true");
-        } else {
-            System.out.println("false");
-        }
-    }
+    //     if (result) {
+    //         System.out.println("true");
+    //     } else {
+    //         System.out.println("false");
+    //     }
+    // }
 
 }

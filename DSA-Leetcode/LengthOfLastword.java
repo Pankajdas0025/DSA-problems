@@ -18,13 +18,13 @@ class LengthOfLastword {
         int l = Ars.length;
         // Last word length
         int Wordlength = Ars[l - 1].length();
-        System.out.println(Wordlength);
+        // System.out.println(Wordlength);
         return Wordlength;
     }
 
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
 
-        LengthOfLastword obj = new LengthOfLastword();
-        obj.lengthOfLastWord("Teerthanker Mahaveer Universirt Moradabad TMU");
-    }
+    //     LengthOfLastword obj = new LengthOfLastword();
+    //     obj.lengthOfLastWord("Teerthanker Mahaveer Universirt Moradabad TMU");
+    // }
 }
